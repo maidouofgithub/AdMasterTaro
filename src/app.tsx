@@ -19,6 +19,7 @@ class App extends Component {
    * 提示和声明 navigationBarTextStyle: 'black' | 'white' 类型冲突, 需要显示声明类型
    */
   config: Config = {
+    debug: true,
     pages: [
       'pages/index/index'
     ],
@@ -27,6 +28,24 @@ class App extends Component {
       navigationBarBackgroundColor: '#fff',
       navigationBarTitleText: 'WeChat',
       navigationBarTextStyle: 'black'
+    },
+    tabBar: {
+      list: [{
+        text: "对话",
+        iconPath: "/example/images/tabbar_icon_chat_default.png",
+        selectedIconPath: "/example/images/tabbar_icon_chat_active.png",
+      },
+      {
+        text: "设置",
+        iconPath: "/example/images/tabbar_icon_setting_default.png",
+        selectedIconPath: "/example/images/tabbar_icon_setting_active.png",
+        badge: 'New'
+      }]
+    },
+    permission: {
+      'scope.userLocation': {
+        desc: '你的位置信息将用于小程序位置接口的效果展示'
+      }
     }
   }
 
