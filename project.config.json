@@ -2,6 +2,7 @@
 	"miniprogramRoot": "dist/",
 	"projectname": "AdMasterTaro",
 	"description": "AdMasterTaro",
+<<<<<<< HEAD
 	"appid": "touristappid",
 	"setting": {
 		"urlCheck": false,
@@ -9,9 +10,21 @@
 		"postcss": false,
 		"minified": false,
 		"newFeature": true
+=======
+	"appid": "wxf38e845a5462cc4d",
+	"setting": {
+		"urlCheck": true,
+		"es6": false,
+		"postcss": false,
+		"minified": false
+>>>>>>> 00281cac30c0342b638f571cf97ef2119df38df9
 	},
 	"compileType": "miniprogram",
 	"simulatorType": "wechat",
 	"simulatorPluginLibVersion": {},
 	"condition": {}
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 00281cac30c0342b638f571cf97ef2119df38df9
