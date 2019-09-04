@@ -30,51 +30,34 @@ class App extends Component {
       navigationBarTextStyle: 'black'
     },
     tabBar: {
-<<<<<<< HEAD
-      color: "#666",
+      color: '#666',
       selectedColor: "#b4282d",
       backgroundColor: "#fafafa",
       borderStyle: 'black',
       list: [{
         pagePath: "pages/index/index",
-        iconPath: "./assets/tab-bar/home.png",
-        selectedIconPath: "./assets/tab-bar/home-active.png",
+        iconPath: "./assets/image/tab-bar/home.png",
+        selectedIconPath: "./assets/image/tab-bar/home-active.png",
         text: "首页"
       }, {
         pagePath: "pages/index/index",
-        iconPath: "./assets/tab-bar/cate.png",
-        selectedIconPath: "./assets/tab-bar/cate-active.png",
+        iconPath: "./assets/image/tab-bar/types.png",
+        selectedIconPath: "./assets/image/tab-bar/types-active.png",
         text: "分类"
       }, {
         pagePath: "pages/index/index",
-        iconPath: "./assets/tab-bar/cart.png",
-        selectedIconPath: "./assets/tab-bar/cart-active.png",
+        iconPath: "./assets/image/tab-bar/cart.png",
+        selectedIconPath: "./assets/image/tab-bar/cart-active.png",
         text: "购物车"
       }, {
         pagePath: "pages/index/index",
-        iconPath: "./assets/tab-bar/user.png",
-        selectedIconPath: "./assets/tab-bar/user-active.png",
+        iconPath: "./assets/image/tab-bar/user.png",
+        selectedIconPath: "./assets/image/tab-bar/user-active.png",
         text: "个人"
       }]
-=======
-      list: [{
-        text: "对话",
-        iconPath: "/example/images/tabbar_icon_chat_default.png",
-        selectedIconPath: "/example/images/tabbar_icon_chat_active.png",
-      },
-      {
-        text: "设置",
-        iconPath: "/example/images/tabbar_icon_setting_default.png",
-        selectedIconPath: "/example/images/tabbar_icon_setting_active.png",
-        badge: 'New'
-      }]
-    },
-    permission: {
-      'scope.userLocation': {
-        desc: '你的位置信息将用于小程序位置接口的效果展示'
-      }
->>>>>>> 00281cac30c0342b638f571cf97ef2119df38df9
     }
+      
+    
   }
 
   componentDidMount () {}
